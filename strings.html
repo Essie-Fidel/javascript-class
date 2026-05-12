@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <p>String Methods</p>
+    </div>
+    <script>
+        // length
+        let f_name = 'Lucy'
+        console.log(f_name.length)
+        // CharAt=>returns character at a specific index
+        console.log(f_name.charAt(3))
+        // slice=>extracts portion of the string
+        let sentence = 'My dog is very sick'
+        console.log(sentence.slice(0, 6))
+        // toLowercase and toUppercase=>converts cases
+        let l_name = 'Michael'
+        console.log(l_name.toLowerCase())
+        console.log(f_name.toUpperCase())
+        // trim=>remove whitespaces in strings//never in between characters
+        let y = "       x    trfffg"
+        let trimmed = y.trim()
+        console.log(trimmed)
+        console.log(y.length)//was 18 before trimming
+        console.log(trimmed.length)//is 11 after trimming
+        //concat=>joins strings
+        let first_name = 'Essie'
+        let last_name = 'Fidel'
+        let full_name = first_name.concat(last_name)
+        console.log(full_name)
+        let Full_name = first_name + " " + last_name
+        console.log(Full_name)
+        //endswith and startswith=>checks whether a string ends or begins with a specified character
+        console.log(first_name.startsWith('E'))
+        console.log(last_name.endsWith('s'))
+        //replace
+        let new_name = first_name.replace('e', 'ra')
+        console.log(new_name)
+        let name = 'Maggie'
+        let n_name = name.replace('gg', 'xx')
+        console.log(n_name)
+
+    </script>
+</body>
+
+</html>
