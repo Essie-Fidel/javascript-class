@@ -32,11 +32,11 @@ console.log(combinedarray)
 // index 4 using the .slice() method. Then, modify the extractedArray by replacing its 
 // elements with 'x', 'y', and 'z' using the .splice() method. Finally, display both 
 // the sourceArray and the modified extractedArray.
-sourearray = ['tokyo', 'beijing', 'seoul', 'delhi', 'milan', 'olkahoma', 'westchester']
-let extractedarray = sourearray.slice(2, 5)
+sourcearray = ['tokyo', 'beijing', 'seoul', 'delhi', 'milan', 'olkahoma', 'westchester']
+let extractedarray = sourcearray.slice(2, 5)
 console.log(extractedarray)
 extractedarray.splice(0, 3, 'x', 'y', 'z')
-console.log(sourearray)
+console.log(sourcearray)
 console.log(extractedarray)
 
 
