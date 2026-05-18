@@ -13,4 +13,13 @@ my_arr[3][2].amount = 90
 console.log(my_arr)
 // 5. Reverse 987 to 789 without using an inbuilt -method or Assigning 789 manually.
 //      Hint: arrays can be reversed using reverse() functions
+let num = String(my_arr[4]).split('')
+console.log(num)
+num.reverse()
+console.log(num)
+my_arr[4] = Number(num.join(''))
+console.log(my_arr)
 // 6. Change the name “John” to “Jane” . 
+my_arr[6] = "Jane";
+
+console.log(my_arr);
