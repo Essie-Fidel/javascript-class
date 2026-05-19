@@ -52,11 +52,15 @@ if (phone_number.startsWith("+254")) {
 //4. Write a program which accepts email as form input or from terminal. 
 // Validate the email by checking if it's a valid email. 
 // Hint: Check if it contains an “@” symbol and “.” symbol.
-let email = prompt('enter email')
-if (email.includes('@', '.')) {
-    console.log(' email is valid')
+let email = prompt("Enter email")
+
+if (email.includes("@") && email.includes(".")) {
+
+    console.log("Email is valid")
+
 } else {
-    console.log('invalid email input')
+
+    console.log("Invalid email input")
 }
 //5. Implement a program that takes 3 users  inputs from the terminal or the Browser, and stores them in three variables. Return the largest of the three. Do this without using the the inbuilt max () function!
 // The goal of this exercise is to think about some internals that programs normally take care of for us. 
